@@ -1,0 +1,8 @@
+{
+  "name": "savanna-landing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"dev": "next dev --hostname 127.0.0.1 --port 3005", "build": "next build", "start": "next start --hostname 127.0.0.1 --port 3005", "typecheck": "tsc --noEmit"},
+  "dependencies": {"next": "16.2.7", "react": "19.2.7", "react-dom": "19.2.7", "lucide-react": "0.555.0"},
+  "devDependencies": {"@types/node": "22.10.5", "@types/react": "19.0.2", "@types/react-dom": "19.0.2", "typescript": "5.7.2"}
+}
