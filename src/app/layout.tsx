@@ -13,17 +13,17 @@ export const metadata: Metadata = {
     title: 'SAVANNA — Rooted in rhythm',
     description: 'Progressive journeys, tribal rhythms and a shared connection. Enter the world of Savanna: DJ, music and bookings.',
     images: [{
-      url: '/images/savanna-hero-cosmic.png',
-      width: 1672,
-      height: 941,
-      alt: 'Savanna performing beneath a cosmic sky',
+      url: '/images/savanna-about-studio.jpg',
+      width: 3642,
+      height: 5692,
+      alt: 'Savanna in her studio portrait',
     }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'SAVANNA — Rooted in rhythm',
     description: 'Progressive journeys, tribal rhythms and a shared connection. Enter the world of Savanna: DJ, music and bookings.',
-    images: ['/images/savanna-hero-cosmic.png'],
+    images: ['/images/savanna-about-studio.jpg'],
   },
 };
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
